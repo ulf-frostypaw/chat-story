@@ -1,17 +1,4 @@
-function adjustImageContainer(img) {
-  const container = img.parentElement;
-  const aspectRatio = img.naturalWidth / img.naturalHeight;
-
-  if (aspectRatio > 1) {
-    // Imagen horizontal
-    container.style.paddingBottom = `${(1 / aspectRatio) * 100}%`;
-  } else {
-    // Imagen vertical o cuadrada
-    container.style.paddingBottom = `${
-      (img.naturalHeight / img.naturalWidth) * 100
-    }%`;
-  }
-}
+// CONTINUA LA HISTORIA Y MANTIENE EL SCROLL ABAJO
 
 const messageGroups = document.querySelectorAll(".message-group");
 const continueButton = document.querySelector(".button");

@@ -7,12 +7,13 @@
     scroll-behavior: smooth;
 }
 body {
-    background-image: url('./rsz_bg.png');
+   /*  background-image: url('./rsz_bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    overflow-y: hidden;
+    overflow-y: hidden; */
     height: 100%;
+    background-color: #fff;
 }
 
 .chat {
@@ -88,8 +89,8 @@ body {
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
-    border: 2px solid #3f31ff;
-    border-bottom: 4px solid #3f31ff;
+    border: 2px solid #359138;
+    border-bottom: 4px solid #359138;
     border-radius: 4px;
     cursor: pointer;
     transition: 0.1s;
@@ -97,7 +98,7 @@ body {
 }
 .button:active{
     transform: translateY(2px);
-    border: 2px solid #3f31ff;
+    border: 2px solid #359138;
 }
 
 .button:disabled{
@@ -133,7 +134,7 @@ ul{
 }
 .title{
     font-weight: 700;
-    color: #0d99ff;
+    color: #000;
     text-align: center;
 }
 h1{
@@ -145,4 +146,9 @@ h1{
 .title small{
     font-weight: 400;
     color: #666666 !important;
+}
+
+.image {
+    width: 100%;
+    border-radius: 10px;
 }
